@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+/* Color schema */
+:root {
+    --primary-100: hsl(225, 100%, 94%);
+    --primary-300: hsl(245, 75%, 52%);
+
+    --secondary-100: hsl(225, 100%, 98%);
+    --secondary-500: hsl(224, 23%, 55%);
+    --secondary-900: hsl(223, 47%, 23%);
+}
+
+*,
+body {
+    margin: 0;
+}
+
+body {
+    background-color: var(--primary-100);
+}
+
+.desktop-background-image {
+    width: 100vw;
+}
+
+.mobile-background-image {
+    display: none;
+}

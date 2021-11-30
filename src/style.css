@@ -93,8 +93,16 @@ body {
     border-radius: 11px;
     background-color: var(--secondary-100);
     padding: 20px;
-    margin-top: 17px;
+    margin-top: 20px;
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.subscription-container-info {
+    display: flex;
+}
+
+.subscription {
+    margin-left: 20px;
 }
 
 .subscription .text {

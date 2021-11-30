@@ -50,7 +50,7 @@ body {
 
 .main-container {
     position: absolute;
-    top: 20%;
+    top: 15%;
     left: calc((100vw - var(--desktop-size)) / 2);    
     background-color: var(--white);
     border-radius: 20px;
@@ -127,19 +127,18 @@ button {
     border-radius: 11px;
     border: none;    
     font-size: 15px;
+    margin-top: 20px;
     font-weight: var(--black-weight);
 }
 
 .pay-button {    
     background-color: var(--primary-300);
     color: var(--white); 
-    margin-top: 20px;
     box-shadow: 0px 20px 20px rgba(56, 42, 225, 0.190291);
 }
 
 .cancel-button {
     background-color: rgba(255, 255, 255, 0);
-    margin-top: 20px;
     color: var(--secondary-500);
 }
 

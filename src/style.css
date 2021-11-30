@@ -57,4 +57,14 @@ body {
 }
 
 .main-container-section {
+    padding: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title {
+    font-size: 28px;
+    line-height: 37px;
+    font-weight: var(--black-weight);
 }

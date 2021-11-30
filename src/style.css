@@ -176,4 +176,8 @@ body {
     .subscription .text, .subscription .price {
         font-size: 14px;
     }
+
+    .pay-button {
+        width: calc(var(--mobile-size) - 48px); 
+    }
 }

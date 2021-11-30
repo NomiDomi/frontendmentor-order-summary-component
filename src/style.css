@@ -68,3 +68,20 @@ body {
     line-height: 37px;
     font-weight: var(--black-weight);
 }
+
+@media screen and (max-width: 1000px) {
+    .main-container {
+        width: 90vw;
+        left: 5vw; 
+    }
+
+    .mobile-background-image {
+        display: block;
+        width: 100vw;
+        height: 50vh;
+    }
+
+    .desktop-background-image {
+        display: none;
+    }
+}

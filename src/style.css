@@ -9,29 +9,52 @@
     --secondary-500: hsl(224, 23%, 55%);
     --secondary-900: hsl(223, 47%, 23%);
 
+    --white: white;
+
     /* Font-weights */
     --medium-weight: 500;
     --bold-weight: 700;
     --black-weight: 900;
 }
 
+/*********** Resets ***************/
 *,
 body {
-    margin: 0;
-    font-family: 'Red Hat Display', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;
-    font-size: 16px;
+    box-sizing: border-box;
+    margin: 0;    
 }
 
+
+/*********** General ***************/
 body {
+    font-family: 'Red Hat Display', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;    
+    font-size: 16px;
     background-color: var(--primary-100);
 }
 
 .desktop-background-image {
     width: 100vw;
+    height: 50vh;
 }
 
 .mobile-background-image {
     display: none;
+}
+
+.main-container {
+    position: absolute;
+    top: 20%;
+    left: calc((100vw - 450px) / 2);    
+    background-color: var(--white);
+    border-radius: 20px;
+}
+
+.main-container-image {
+    width: 450px;    
+    border-radius: 20px 20px 0 0;
+}
+
+.main-container-section {
 }

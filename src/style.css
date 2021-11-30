@@ -25,16 +25,17 @@
 *,
 body {
     box-sizing: border-box;
-    margin: 0;    
+    margin: 0;   
+    font-size: 16px;
+    line-height: 21px;
+    font-family: 'Red Hat Display', sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale; 
 }
 
 
 /*********** General ***************/
 body {
-    font-family: 'Red Hat Display', sans-serif;
-    -webkit-font-smoothing: antialiased;
-    -moz-osx-font-smoothing: grayscale;    
-    font-size: 16px;
     background-color: var(--primary-100);
 }
 
@@ -77,12 +78,39 @@ body {
 }
 
 .subtitle {
-    font-size: 16px;
     line-height: 26px;
     font-weight: var(--medium-weight);
     color: var(--secondary-500);
     text-align: center;
     margin-top: 20px;
+}
+
+.subscription-container {
+    width: calc(var(--desktop-size) - 90px); 
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 11px;
+    background-color: var(--secondary-100);
+    padding: 20px;
+    margin-top: 17px;
+    filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
+}
+
+.subscription .text {
+    font-weight: var(--black-weight);
+}
+
+.subscription .price {
+    font-weight: var(--medium-weight);
+    color: var(--secondary-500);
+}
+
+.change-button {
+    color: var(--primary-300);
+    font-size: 14px;
+    line-height: 19px;
+    font-weight: var(--bold-weight);
 }
 
 @media screen and (max-width: 500px) {

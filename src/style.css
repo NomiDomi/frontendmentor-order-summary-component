@@ -121,6 +121,18 @@ body {
     font-weight: var(--bold-weight);
 }
 
+.pay-button {
+    height: 50px;
+    width: calc(var(--desktop-size) - 90px); 
+    border-radius: 11px;
+    border: none;
+    background-color: var(--primary-300);
+    color: var(--white); 
+    font-weight: var(--black-weight);
+    font-size: 15px;
+    margin-top: 20px;
+}
+
 @media screen and (max-width: 500px) {
     .main-container {
         width: var(--mobile-size);

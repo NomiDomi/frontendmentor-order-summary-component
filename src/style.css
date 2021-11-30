@@ -155,4 +155,13 @@ body {
         font-size: 15px;
         line-height: 25px;
     }
+
+    .subscription-container {
+        width: calc(var(--mobile-size) - 48px); 
+        padding: 16px;
+    }
+
+    .subscription .text, .subscription .price {
+        font-size: 14px;
+    }
 }

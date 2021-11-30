@@ -9,6 +9,8 @@
     --secondary-500: hsl(224, 23%, 55%);
     --secondary-900: hsl(223, 47%, 23%);
 
+    --hover-color: #766CF1;
+
     --white: white;
 
     /* Font-weights */
@@ -140,6 +142,22 @@ button {
 .cancel-button {
     background-color: rgba(255, 255, 255, 0);
     color: var(--secondary-500);
+}
+
+.change-button:hover {
+    color: var(--hover-color);
+}
+
+.pay-button:hover {
+    background-color: var(--hover-color);
+}
+
+.cancel-button:hover {
+    color: var(--secondary-900);
+}
+
+.change-button:hover, .cancel-button:hover, .pay-button:hover {
+    cursor: pointer;
 }
 
 @media screen and (max-width: 500px) {
